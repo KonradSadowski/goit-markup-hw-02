@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap);
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  width: 145px;
+  height: 31px;
+}
+.logo-web {
+  font-weight: 700;
+  color: #2196f3;
+}
+
+.nav-header {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  list-style: none;
+}
+.nav-header:hover,
+.nav-header:focus {
+  color: #2196f3;
+}
+
+.contact {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
