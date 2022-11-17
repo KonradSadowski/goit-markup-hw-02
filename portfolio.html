@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -17,31 +15,35 @@
     <header>
       <nav>
         <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
-        <ul>
-          <li><a href="">Agencja</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
+        <ul class="nav-header">
+          <li><a href="" class="nav-header">Agencja</a></li>
+          <li><a href="portfolio.html" class="nav-header">Portfolio</a></li>
+          <li><a href="" class="nav-header">Kontakt</a></li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="call:+48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+      <a href="call:+48111111111" class="contact">+48 111 111 111</a>
     </header>
     <main>
-      <ul>
+      <ul class="tab-list">
         <li>
-          <button class="tab" type="button">Wszystkie</button>
+          <button class="tab-button" type="button"><span class="tab-text">Wszystkie</span></button>
         </li>
         <li>
-          <button class="tab" type="button">Strony</button>
+          <button class="tab-button" type="button"><span class="tab-text">Strony</span></button>
         </li>
         <li>
-          <button class="tab" type="button">Aplikacje</button>
+          <button class="tab-button" type="button"><span class="tab-text">Aplikacje</span></button>
         </li>
-        <li><button class="tab" type="button">Dizajn</button></li>
-        <li><button class="tab" type="button">Marketing</button></li>
+        <li>
+          <button class="tab-button" type="button"><span class="tab-text">Dizajn</span></button>
+        </li>
+        <li>
+          <button class="tab-button" type="button"><span class="tab-text">Marketing</span></button>
+        </li>
       </ul>
-      <ul>
+      <ul class="boxes">
         <li>
           <figure>
             <img
@@ -51,8 +53,8 @@
               height="294"
             />
             <figcaption>
-              <span>Technocrack</span>
-              <span>Strona internetowa</span>
+              <span class="box-name">Technocrack</span>
+              <span class="box-description">Strona internetowa</span>
             </figcaption>
           </figure>
         </li>
@@ -65,8 +67,8 @@
               height="294"
             />
             <figcaption>
-              <span>Grafika New Orlean vs Golden Star</span>
-              <span>Dizajn</span>
+              <span class="box-name">Grafika New Orlean vs Golden Star</span>
+              <span class="box-description">Dizajn</span>
             </figcaption>
           </figure>
         </li>
@@ -74,8 +76,8 @@
           <figure>
             <img src="images/restaurant-logo.jpg" alt="logo restauracji" width="370" height="294" />
             <figcaption>
-              <span>Restauracja Seafood</span>
-              <span>Aplikacja</span>
+              <span class="box-name">Restauracja Seafood</span>
+              <span class="box-description">Aplikacja</span>
             </figcaption>
           </figure>
         </li>
@@ -83,8 +85,8 @@
           <figure>
             <img src="images/headphones.jpg" alt="słuchawki nauszne" width="370" height="294" />
             <figcaption>
-              <span>Projekt Prime</span>
-              <span>Marketing</span>
+              <span class="box-name">Projekt Prime</span>
+              <span class="box-description">Marketing</span>
             </figcaption>
           </figure>
         </li>
@@ -92,8 +94,8 @@
           <figure>
             <img src="images/boxes.jpg" alt="dwa małe pudełka" width="370" height="294" />
             <figcaption>
-              <span>Projekt Boxes</span>
-              <span>Aplikacja</span>
+              <span class="box-name">Projekt Boxes</span>
+              <span class="box-description">Aplikacja</span>
             </figcaption>
           </figure>
         </li>
@@ -101,8 +103,8 @@
           <figure>
             <img src="images/monitor.jpg" alt="monitor z otwartą stroną" width="370" height="294" />
             <figcaption>
-              <span>Inspiration has no Borders</span>
-              <span>Strona internetowa</span>
+              <span class="box-name">Inspiration has no Borders</span>
+              <span class="box-description">Strona internetowa</span>
             </figcaption>
           </figure>
         </li>
@@ -110,8 +112,8 @@
           <figure>
             <img src="images/book.jpg" alt="otwarta książka" width="370" height="294" />
             <figcaption>
-              <span>Magazyn Limited Edition</span>
-              <span>Dizajn</span>
+              <span class="box-name">Magazyn Limited Edition</span>
+              <span class="box-description">Dizajn</span>
             </figcaption>
           </figure>
         </li>
@@ -119,8 +121,8 @@
           <figure>
             <img src="images/tag.jpg" alt="wizualizacja zawieszki" width="370" height="294" />
             <figcaption>
-              <span>Projekt LAB</span>
-              <span>Marketing</span>
+              <span class="box-name">Projekt LAB</span>
+              <span class="box-description">Marketing</span>
             </figcaption>
           </figure>
         </li>
@@ -133,8 +135,8 @@
               height="294"
             />
             <figcaption>
-              <span>Growing Business</span>
-              <span>Aplikacja</span>
+              <span class="box-name">Growing Business</span>
+              <span class="box-description">Aplikacja</span>
             </figcaption>
           </figure>
         </li>
@@ -143,7 +145,7 @@
     <footer>
       <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
       <address>
-        <span>m. Warszawa, Aleje Jerozolimskie 21</span>
+        <span class="headquarters">m. Warszawa, Aleje Jerozolimskie 21</span>
         <a href="mailto:info@example.com">info@example.com</a> <br />
         <a href="call:+48111111111">+48 111 111 111</a>
       </address>
