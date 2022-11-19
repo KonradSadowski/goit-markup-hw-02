@@ -32,16 +32,18 @@ body {
   color: var(--text-white);
 }
 
+.nav-header {
+  list-style: none;
+}
 .nav-header a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  list-style: none;
   color: var(--main-black);
 }
-.nav-header:hover,
-.nav-header:focus {
+.nav-header a:hover,
+.nav-header a:focus {
   color: var(--light-blue);
 }
 
@@ -68,22 +70,19 @@ body {
   color: var(--text-white);
 }
 
-.order-button {
-  background: var(--light-blue);
+.offer button {
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: none;
   width: 200px;
   height: 50px;
-  cursor: pointer;
 }
-
-.offer button {
+.offer button span {
+  width: 117px;
+  height: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  width: 117px;
-  height: 30px;
   color: var(--text-white);
 }
 
