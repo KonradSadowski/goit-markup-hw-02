@@ -76,6 +76,7 @@ body {
   border-radius: 4px;
   width: 200px;
   height: 50px;
+  cursor: pointer;
 }
 .offer button span {
   width: 117px;
@@ -107,7 +108,12 @@ body {
   line-height: 1.17;
 }
 
-.employees {
+.our team h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.our-team ul {
   list-style: none;
 }
 .employee-name {
@@ -122,25 +128,25 @@ body {
   color: var(--text-grey);
 }
 
-.tab-list ul {
+.portfolio-categories {
   list-style: none;
 }
-.tab-button {
+.portfolio-categories button {
   background: var(--button-grey-background);
   border-radius: 4px;
-  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: none;
   cursor: pointer;
 }
-.tab-button:hover {
+.portfolio-categories button:hover {
   background: var(--light-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
   color: var(--text-white);
 }
-
 .boxes {
   list-style: none;
 }
