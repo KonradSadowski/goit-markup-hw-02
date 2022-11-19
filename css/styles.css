@@ -77,6 +77,7 @@ body {
   width: 200px;
   height: 50px;
   cursor: pointer;
+  border: none;
 }
 .offer button span {
   width: 117px;
@@ -161,14 +162,13 @@ body {
   color: var(--text-grey);
 }
 
+.page-end {
+  background-color: var(--background-dark);
+}
 .headquarters {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-white);
-}
-
-.underline {
-  text-decoration: underline;
 }
 .page-end address a {
   font-size: 14px;
@@ -176,16 +176,6 @@ body {
   color: var(--addres-color);
   text-decoration: none;
 }
-
-.page-end address a:hover {
-  color: var(--light-blue);
-}
-.page-end {
-  background-color: var(--background-dark);
-}
-.page-end address a {
-  color: var(--footer-contacts);
-}
-.page-end address {
-  font-style: normal;
+.page-end address a span {
+  text-decoration: underline;
 }
