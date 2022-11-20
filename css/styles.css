@@ -165,6 +165,10 @@ body {
 .page-end {
   background-color: var(--background-dark);
 }
+.page-end a:hover,
+.page-end a:focus {
+  color: var(--light-blue);
+}
 .headquarters {
   font-size: 14px;
   line-height: 1.71;
@@ -179,10 +183,7 @@ body {
   color: var(--addres-color);
   text-decoration: none;
 }
-.page-end address a:hover,
-.page-end address a:focus {
-  color: var(--light-blue);
-}
+
 .page-end address a span {
   text-decoration: underline;
 }
