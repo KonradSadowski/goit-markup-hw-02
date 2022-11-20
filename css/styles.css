@@ -170,12 +170,23 @@ body {
   line-height: 1.71;
   color: var(--text-white);
 }
+.page-end address {
+  font-style: normal;
+}
 .page-end address a {
   font-size: 14px;
   line-height: 1.71;
   color: var(--addres-color);
   text-decoration: none;
 }
+.page-end address a:hover,
+.page-end address a:focus {
+  color: var(--light-blue);
+}
 .page-end address a span {
   text-decoration: underline;
+}
+.page-end address a:hover,
+.page-end address a:focus {
+  color: var(--light-blue);
 }
